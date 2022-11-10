@@ -1,33 +1,43 @@
-.flag {
-    border: 1px solid black;
-    background-color: rgb(179, 25, 66);
+.top, .bottom {
     width: 1235px;
+    background-color: rgb(179, 25, 66);
+    border: 1px solid black;
+}
+
+.top {
+    border-bottom: none;
+}
+
+.bottom {
+    border-top: none;
 }
 
 img {
     height: 40px;
 }
 
+.top, .six, .five {
+    display: flex;
+}
 .stars {
-    height: 330px;
     width: 494px;
     background-color: rgb(6, 37, 95);
-    padding-top: 20px;
+    padding-top: 17px;
+    padding-bottom: 18px;
 }
 
-.stars div{
-    display: flex;
+.six, .five {
+    height: 35px;
     align-items: center;
 }
 
 .six {
     justify-content: space-around;
-    margin: -5px 0;
 }
 
 .five {
+    padding: 0 20px;
     justify-content: space-evenly;
-    margin: 0 20px;
 }
 
 .stripes div {
@@ -35,18 +45,11 @@ img {
     background-color: white;
 }
 
-#short div {
+.top .stripes div {
     width: 741px;
-    margin: 50px -4px;
+    margin-top: 50px;
 }
 
-#long div {
-    width: 1235px;
+.bottom div {
     margin-bottom: 50px;
 }
-
-#short, .stars {
-    display: inline-block;
-    vertical-align: top;
-}
-
