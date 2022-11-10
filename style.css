@@ -30,22 +30,22 @@ img {
     margin: 0 20px;
 }
 
-.stripes div{
+.stripes div {
     height: 50px;
     background-color: white;
 }
 
-.short {
+#short div {
     width: 741px;
-    margin: 50px -3px;
+    margin: 50px -4px;
 }
 
-.long {
+#long div {
     width: 1235px;
     margin-bottom: 50px;
 }
 
-.stripes, .stars {
+#short, .stars {
     display: inline-block;
     vertical-align: top;
 }
